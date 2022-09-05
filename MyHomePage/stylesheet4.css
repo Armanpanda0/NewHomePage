@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color: aqua;
+    margin: 20px;
+    line-height: 26px;
+    font:100% Courier New ;
+
+}
+.containerwraper{
+    min-width: 900px;
+}
+.wrapper{
+    position: relative;
+    overflow: auto;
+}
+#top{
+    background-color: rgb(65, 60, 60);
+    color: rgb(210, 187, 16);
+    padding: 5px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#main{
+    padding: 8px;
+    color: rgb(0, 255, 255);
+    
+    
+}
+#sidebar{
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 320px;
+    top: 0;
+    right: 0;
+    position:absolute;
+    line-height: 20px;
+    font-size: 80%;
+}
+#sidebar:hover{
+    color: aqua;
+    background-color: rgb(39, 67, 46);
+}
+#bottom{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: beige;
+    line-height: 17px;
+    font-size: 77%;
+
+}
+#bottom:hover{
+    color: beige;
+}
+.menuitem{
+    width: 155px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(13, 61, 103);
+    cursor: pointer;
+}
+.menuitem:nth-child(4){
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+}
+.menuitem:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
+a{
+    color: red;
+   font-style: unset;
+   font-size: 19px;
+}
+a:hover{
+    color: aqua;
+}
+
+

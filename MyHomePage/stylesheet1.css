@@ -1,0 +1,124 @@
+body{
+    font: 100% Lucida Sans,Verdana;
+    margin: 20px;
+    border: 25px;
+    padding: 20px;
+    line-height: 26px;
+    background-color: antiquewhite;
+
+}
+.containerwraper{
+    
+    margin: 20px;
+    border: 15px;
+    padding: 15px;
+    background-color: rgb(200, 183, 160);
+    border-radius: 20px;
+
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+   
+    
+    border-radius: 10px;
+    overflow: auto;
+    background-color: rgba(222, 212, 177, 0.967);
+    position: relative;
+
+}
+
+
+#top,#sidebar,#bottom, .menuitem{
+    background-color: rgb(204, 135, 93);
+    margin: 7px;
+    border: 10px;
+    border-radius: 10px;
+    
+    
+}
+#top{
+    background-color: rgb(255, 235, 162);
+    color: rgb(44, 80, 12);
+    padding: 15px;
+}
+.menubar{
+    width: 190px;
+   float: left; 
+
+}
+#main{
+    padding: 1px;
+    margin: 10px;
+}
+#sidebar{
+    background-color: #a6a452;
+    color: #ffffff;
+    padding: 5px;
+   width: 180px;
+   bottom: 0;
+   top: 0;
+   right: 0;
+   position: absolute;
+   height: auto;
+   
+}
+#bottom{
+    border: 1px solid #ec0d0d;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+#top h1,#top p,#menulist{
+    margin: 0;
+    padding: 0;
+}
+.menuitem{
+    background-color: #998c67;
+    border: 1px solid #10b11b;
+    list-style-type: none;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.menuitem:hover{
+    background-color: aliceblue;
+}
+.menuitem:first-child{
+    background-color: #c4a404;
+    color: white;
+    font-weight:bold ;
+
+}
+a{
+    color: #000000;
+    text-decoration: underline;
+}
+a:hover{
+    background-color: #d1d0b9;
+    text-decoration: none;
+}
+@media (max-width: 800px){
+    #sidebar{
+        width:auto;
+        height: auto;
+        position: relative;
+        
+    }
+    #main{
+        margin-right: 0;
+    }
+}
+@media (max-width:600px){
+    .menubar{
+        width: auto;
+        float: none;
+    }
+    #main{
+        margin: 0;
+    }
+}
+
